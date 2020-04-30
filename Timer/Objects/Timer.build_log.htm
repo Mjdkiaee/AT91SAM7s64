@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Majid kiaee, kiaee, LIC=X962Z-JLBZG-J6IQ9-4SYH2-8QH6I-C7058
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARM.DLL V5.17
+Dialog DLL:      DARMATS.DLL V1.20
+Target DLL:      Segger\JLTAgdi.dll V1.59.0.0
+Dialog DLL:      TARMATS.DLL V1.20
+ 
+<h2>Project:</h2>
+C:\Users\mjd.kiaee\Documents\keil\Timer\Timer.uvproj
+Project File Date:  08/28/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling Timer.c...
+Timer.c(24): warning:  #1295-D: Deprecated declaration setup - give arg types
+  void setup();
+Timer.c(25): warning:  #1295-D: Deprecated declaration blink - give arg types
+  void blink();
+Timer.c(26): warning:  #1295-D: Deprecated declaration delay0 - give arg types
+  void delay0();
+Timer.c(27): warning:  #1295-D: Deprecated declaration get_char - give arg types
+  char get_char();
+Timer.c(29): warning:  #1295-D: Deprecated declaration write_majid - give arg types
+  void write_majid();
+Timer.c(92): warning:  #111-D: statement is unreachable
+  	return 0;
+Timer.c(38): warning:  #177-D: variable "mean" was declared but never referenced
+  	double mean=0,meanSqured=0,sigma=0;
+Timer.c(38): warning:  #177-D: variable "meanSqured" was declared but never referenced
+  	double mean=0,meanSqured=0,sigma=0;
+Timer.c(38): warning:  #177-D: variable "sigma" was declared but never referenced
+  	double mean=0,meanSqured=0,sigma=0;
+Timer.c(39): warning:  #177-D: variable "i" was declared but never referenced
+  	int i=0,curentNum=0;
+Timer.c(39): warning:  #177-D: variable "curentNum" was declared but never referenced
+  	int i=0,curentNum=0;
+Timer.c(40): warning:  #550-D: variable "converted" was set but never used
+  	int converted=0;
+Timer.c(41): warning:  #550-D: variable "converted2" was set but never used
+  	int converted2=0;
+Timer.c(42): warning:  #177-D: variable "numberEntered" was declared but never referenced
+  	int numberEntered;
+Timer.c(43): warning:  #177-D: variable "strConverted" was declared but never referenced
+  	char strConverted[MAX_STRING];
+Timer.c(44): warning:  #177-D: variable "meanChar" was declared but never referenced
+  	char meanChar[MAX_STRING];
+Timer.c(45): warning:  #177-D: variable "sigmaChar" was declared but never referenced
+  	char sigmaChar[MAX_STRING];	
+Timer.c(46): warning:  #177-D: variable "strSum1" was declared but never referenced
+  	char strSum1[MAX_STRING];
+Timer.c(47): warning:  #177-D: variable "strSum2" was declared but never referenced
+  	char strSum2[MAX_STRING];
+Timer.c(48): warning:  #177-D: variable "sumSqured" was declared but never referenced
+  	double sumSqured=0,sum=0;
+Timer.c(48): warning:  #177-D: variable "sum" was declared but never referenced
+  	double sumSqured=0,sum=0;
+Timer.c(49): warning:  #177-D: variable "n" was declared but never referenced
+  	int n=0;
+Timer.c(221): warning:  #177-D: variable "DBGU_SR" was declared but never referenced
+  	volatile unsigned int * DBGU_SR = (unsigned int*) 0xfffff214; // Status Register DBGU
+Timer.c(223): warning:  #177-D: variable "DBGU_RHR" was declared but never referenced
+  	unsigned int * DBGU_RHR = (unsigned int*) 0xfffff218; //Receive Holding Register
+Timer.c(224): warning:  #177-D: variable "DBGU_THR" was declared but never referenced
+  	unsigned int * DBGU_THR = (unsigned int*) 0xfffff21c; // Transmit Holding Register
+Timer.c(232): warning:  #177-D: variable "ADC_SR" was declared but never referenced
+    volatile	unsigned int * ADC_SR = (unsigned int*) 0xfffd801c; // Status Register
+Timer.c(233): warning:  #177-D: variable "ADC_LCDR" was declared but never referenced
+  	volatile  unsigned int * ADC_LCDR= (unsigned int*) 0xfffd8020; //Last Converted Data Register
+Timer.c(234): warning:  #177-D: variable "ADC_CDR0" was declared but never referenced
+    volatile	unsigned int * ADC_CDR0 = (unsigned int*) 0xfffd8040; // Channel Data Register 4
+Timer.c: 28 warnings, 0 errors
+linking...
+Program Size: Code=1724 RO-data=32 RW-data=44 ZI-data=1260  
+FromELF: creating hex file...
+".\Objects\Timer.axf" - 0 Error(s), 28 Warning(s).
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
