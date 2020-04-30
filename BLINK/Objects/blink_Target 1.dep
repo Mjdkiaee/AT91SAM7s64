@@ -1,0 +1,4 @@
+Dependencies for Project 'blink', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\SAM7.s)(0x5E4B2D10)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Atmel\SAM7S--pd "__UVISION_VERSION SETA 529"--list .\listings\sam7.lst --xref -o .\objects\sam7.o --depend .\objects\sam7.d)
+F (.\blink.c)(0x5EA52BEF)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Atmel\SAM7S-D__UVISION_VERSION="529"-o .\objects\blink.o --omf_browse .\objects\blink.crf --depend .\objects\blink.d)
