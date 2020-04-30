@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Majid kiaee, kiaee, LIC=X962Z-JLBZG-J6IQ9-4SYH2-8QH6I-C7058
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARM.DLL V5.17
+Dialog DLL:      DARMATS.DLL V1.20
+Target DLL:      Segger\JLTAgdi.dll V1.59.0.0
+Dialog DLL:      TARMATS.DLL V1.20
+ 
+<h2>Project:</h2>
+C:\Users\mjd.kiaee\Documents\keil\keyboard\keyboard.uvproj
+Project File Date:  09/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling SAM7.s...
+compiling asyncron putchar and getchar.c...
+asyncron putchar and getchar.c(38): warning:  #1295-D: Deprecated declaration IRQ_Handler_ADC - give arg types
+  __irq void IRQ_Handler_ADC();
+asyncron putchar and getchar.c(39): warning:  #1295-D: Deprecated declaration IRQ_Handler_sys - give arg types
+  __irq void IRQ_Handler_sys();
+asyncron putchar and getchar.c(40): warning:  #1295-D: Deprecated declaration HasReceived2 - give arg types
+  unsigned char HasReceived2();
+asyncron putchar and getchar.c(41): warning:  #1295-D: Deprecated declaration keyBoard - give arg types
+  int keyBoard();
+asyncron putchar and getchar.c(42): warning:  #1295-D: Deprecated declaration setup_key - give arg types
+  void  setup_key();
+asyncron putchar and getchar.c(43): warning:  #1295-D: Deprecated declaration delay1 - give arg types
+  void delay1();
+asyncron putchar and getchar.c(45): warning:  #1295-D: Deprecated declaration get_char_int - give arg types
+  char get_char_int();
+asyncron putchar and getchar.c(47): warning:  #1295-D: Deprecated declaration setup - give arg types
+  void setup();
+asyncron putchar and getchar.c(48): warning:  #1295-D: Deprecated declaration blink - give arg types
+  void blink();
+asyncron putchar and getchar.c(49): warning:  #1295-D: Deprecated declaration delay0 - give arg types
+  void delay0();
+asyncron putchar and getchar.c(50): warning:  #1295-D: Deprecated declaration get_char - give arg types
+  char get_char();
+asyncron putchar and getchar.c(52): warning:  #1295-D: Deprecated declaration write_majid - give arg types
+  void write_majid();
+asyncron putchar and getchar.c(118): warning:  #177-D: variable "finished" was declared but never referenced
+  	 int finished;
+asyncron putchar and getchar.c(120): warning:  #177-D: variable "number" was declared but never referenced
+  		int number=0;
+asyncron putchar and getchar.c(122): warning:  #550-D: variable "strNumber" was set but never used
+  		char *strNumber;
+asyncron putchar and getchar.c(123): warning:  #177-D: variable "h" was declared but never referenced
+  		int h=0;
+asyncron putchar and getchar.c(151): warning:  #177-D: variable "finished" was declared but never referenced
+  		int finished;
+asyncron putchar and getchar.c(156): warning:  #177-D: variable "h" was declared but never referenced
+  		int h=0;
+asyncron putchar and getchar.c(149): warning:  #128-D: loop is not reachable
+   for (;;)
+asyncron putchar and getchar.c(222): warning:  #111-D: statement is unreachable
+  	return 0;
+asyncron putchar and getchar.c(71): warning:  #177-D: variable "curentNum" was declared but never referenced
+  	int i=0,curentNum=0;
+asyncron putchar and getchar.c(73): warning:  #550-D: variable "converted2" was set but never used
+  	int converted2=0;
+asyncron putchar and getchar.c(74): warning:  #177-D: variable "numberEntered" was declared but never referenced
+  	int numberEntered;
+asyncron putchar and getchar.c(81): warning:  #177-D: variable "n" was declared but never referenced
+  	int n=0;
+asyncron putchar and getchar.c(83): warning:  #177-D: variable "tmp" was declared but never referenced
+  	char tmp[100];
+asyncron putchar and getchar.c(227): warning:  #177-D: variable "PIO_Enable" was declared but never referenced
+  	unsigned int * PIO_Enable = (unsigned int*) 0xfffff400;  //  PIO Enable Register
+asyncron putchar and getchar.c(233): warning:  #177-D: variable "PIO_ODSR" was declared but never referenced
+  	unsigned int *PIO_ODSR = (unsigned int * ) 0xfffff438 ;   //Output Data Status Register
+asyncron putchar and getchar.c(236): warning:  #177-D: variable "i" was declared but never referenced
+  	int i=0,j=0;
+asyncron putchar and getchar.c(236): warning:  #177-D: variable "j" was declared but never referenced
+  	int i=0,j=0;
+asyncron putchar and getchar.c(241): warning:  #177-D: variable "c" was declared but never referenced
+  	int c=0;
+asyncron putchar and getchar.c(242): warning:  #177-D: variable "recived" was declared but never referenced
+  	int recived=0;
+asyncron putchar and getchar.c(247): warning:  #177-D: variable "ColumnR" was declared but never referenced
+  	unsigned int ColumnR= 0; 
+asyncron putchar and getchar.c(249): warning:  #177-D: variable "RowW" was declared but never referenced
+  	unsigned int RowW= 0;
+asyncron putchar and getchar.c(250): warning:  #177-D: variable "Columnw" was declared but never referenced
+  	unsigned int Columnw= 0;
+asyncron putchar and getchar.c(515): warning:  #177-D: variable "PMC_IER" was declared but never referenced
+  	volatile unsigned int * PMC_IER= (unsigned int*) 0xfffffc60; // Interrupt Enable Register
+asyncron putchar and getchar.c(523): warning:  #177-D: variable "PIO_ODR" was declared but never referenced
+  	unsigned int *PIO_ODR = (unsigned int * ) 0xfffff414 ;   // Output Disable Register
+asyncron putchar and getchar.c(527): warning:  #177-D: variable "DBGU_IER" was declared but never referenced
+  	volatile unsigned int * DBGU_IER = (unsigned int*) 0xfffff208; //Interrupt Enable Register
+asyncron putchar and getchar.c(528): warning:  #177-D: variable "DBGU_SR" was declared but never referenced
+  	volatile unsigned int * DBGU_SR = (unsigned int*) 0xfffff214; // Status Register DBGU
+asyncron putchar and getchar.c(530): warning:  #177-D: variable "DBGU_RHR" was declared but never referenced
+  	unsigned int * DBGU_RHR = (unsigned int*) 0xfffff218; //Receive Holding Register
+asyncron putchar and getchar.c(531): warning:  #177-D: variable "DBGU_THR" was declared but never referenced
+  	unsigned int * DBGU_THR = (unsigned int*) 0xfffff21c; // Transmit Holding Register
+asyncron putchar and getchar.c(536): warning:  #177-D: variable "ADC_CR" was declared but never referenced
+  	volatile  unsigned int * ADC_CR= (unsigned int*) 0xfffd8000; //Control Register 
+asyncron putchar and getchar.c(539): warning:  #177-D: variable "ADC_SR" was declared but never referenced
+    volatile	unsigned int * ADC_SR = (unsigned int*) 0xfffd801c; // Status Register
+asyncron putchar and getchar.c(540): warning:  #177-D: variable "ADC_LCDR" was declared but never referenced
+  	volatile  unsigned int * ADC_LCDR= (unsigned int*) 0xfffd8020; //Last Converted Data Register
+asyncron putchar and getchar.c(541): warning:  #177-D: variable "ADC_CDR0" was declared but never referenced
+    volatile	unsigned int * ADC_CDR0 = (unsigned int*) 0xfffd8040; // Channel Data Register 4
+asyncron putchar and getchar.c(633): warning:  #177-D: variable "DBGU_IMR" was declared but never referenced
+    volatile unsigned int * DBGU_IMR = (unsigned int*) 0xfffff210; //Interrupt Mask Register
+asyncron putchar and getchar.c: 45 warnings, 0 errors
+linking...
+Program Size: Code=2944 RO-data=48 RW-data=92 ZI-data=1508  
+FromELF: creating hex file...
+".\Objects\keyboard.axf" - 0 Error(s), 45 Warning(s).
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

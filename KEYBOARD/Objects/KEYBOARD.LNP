@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\asyncron putchar and getchar.o"
+--strict --scatter ".\Objects\keyboard.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\keyboard.map" -o .\Objects\keyboard.axf

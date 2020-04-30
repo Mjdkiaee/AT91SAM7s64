@@ -1,0 +1,7 @@
+Dependencies for Project 'keyboard', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x559D0BF6)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7S--pd "__UVISION_VERSION SETA 517"--list .\listings\sam7.lst --xref -o .\objects\sam7.o --depend .\objects\sam7.d)
+F (.\asyncron putchar and getchar.c)(0x5D85CC2E)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Atmel\SAM7S-D__UVISION_VERSION="517"-o ".\objects\asyncron putchar and getchar.o" --omf_browse ".\objects\asyncron putchar and getchar.crf" --depend ".\objects\asyncron putchar and getchar.d")
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB5CAE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB5CB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB5CB0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DB5CB6)
