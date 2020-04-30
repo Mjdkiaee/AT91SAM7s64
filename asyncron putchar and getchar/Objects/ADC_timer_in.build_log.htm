@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Majid kiaee, kiaee, LIC=X962Z-JLBZG-J6IQ9-4SYH2-8QH6I-C7058
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARM.DLL V5.17
+Dialog DLL:      DARMATS.DLL V1.20
+Target DLL:      Segger\JLTAgdi.dll V1.59.0.0
+Dialog DLL:      TARMATS.DLL V1.20
+ 
+<h2>Project:</h2>
+C:\Users\mjd.kiaee\Documents\keil\ADC_timer_in\ADC_timer_in.uvproj
+Project File Date:  09/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling ADC2.c...
+ADC2.c(38): warning:  #1295-D: Deprecated declaration IRQ_Handler_ADC - give arg types
+  __irq void IRQ_Handler_ADC();
+ADC2.c(39): warning:  #1295-D: Deprecated declaration IRQ_Handler_sys - give arg types
+  __irq void IRQ_Handler_sys();
+ADC2.c(40): warning:  #1295-D: Deprecated declaration HasReceived2 - give arg types
+  unsigned char HasReceived2();
+ADC2.c(42): warning:  #1295-D: Deprecated declaration get_char_int - give arg types
+  char get_char_int();
+ADC2.c(44): warning:  #1295-D: Deprecated declaration setup - give arg types
+  void setup();
+ADC2.c(45): warning:  #1295-D: Deprecated declaration blink - give arg types
+  void blink();
+ADC2.c(46): warning:  #1295-D: Deprecated declaration delay0 - give arg types
+  void delay0();
+ADC2.c(47): warning:  #1295-D: Deprecated declaration get_char - give arg types
+  char get_char();
+ADC2.c(49): warning:  #1295-D: Deprecated declaration write_majid - give arg types
+  void write_majid();
+ADC2.c(129): warning:  #177-D: variable "finished" was declared but never referenced
+  		int finished;
+ADC2.c(134): warning:  #177-D: variable "h" was declared but never referenced
+  		int h=0;
+ADC2.c(127): warning:  #128-D: loop is not reachable
+   for (;;)
+ADC2.c(192): warning:  #111-D: statement is unreachable
+  	return 0;
+ADC2.c(68): warning:  #177-D: variable "curentNum" was declared but never referenced
+  	int i=0,curentNum=0;
+ADC2.c(70): warning:  #550-D: variable "converted2" was set but never used
+  	int converted2=0;
+ADC2.c(71): warning:  #177-D: variable "numberEntered" was declared but never referenced
+  	int numberEntered;
+ADC2.c(78): warning:  #177-D: variable "n" was declared but never referenced
+  	int n=0;
+ADC2.c(79): warning:  #177-D: variable "tmp" was declared but never referenced
+  	char tmp[100];
+ADC2.c(350): warning:  #177-D: variable "PMC_IER" was declared but never referenced
+  	volatile unsigned int * PMC_IER= (unsigned int*) 0xfffffc60; // Interrupt Enable Register
+ADC2.c(362): warning:  #177-D: variable "DBGU_SR" was declared but never referenced
+  	volatile unsigned int * DBGU_SR = (unsigned int*) 0xfffff214; // Status Register DBGU
+ADC2.c(364): warning:  #177-D: variable "DBGU_RHR" was declared but never referenced
+  	unsigned int * DBGU_RHR = (unsigned int*) 0xfffff218; //Receive Holding Register
+ADC2.c(365): warning:  #177-D: variable "DBGU_THR" was declared but never referenced
+  	unsigned int * DBGU_THR = (unsigned int*) 0xfffff21c; // Transmit Holding Register
+ADC2.c(370): warning:  #177-D: variable "ADC_CR" was declared but never referenced
+  	volatile  unsigned int * ADC_CR= (unsigned int*) 0xfffd8000; //Control Register 
+ADC2.c(373): warning:  #177-D: variable "ADC_SR" was declared but never referenced
+    volatile	unsigned int * ADC_SR = (unsigned int*) 0xfffd801c; // Status Register
+ADC2.c(374): warning:  #177-D: variable "ADC_LCDR" was declared but never referenced
+  	volatile  unsigned int * ADC_LCDR= (unsigned int*) 0xfffd8020; //Last Converted Data Register
+ADC2.c(375): warning:  #177-D: variable "ADC_CDR0" was declared but never referenced
+    volatile	unsigned int * ADC_CDR0 = (unsigned int*) 0xfffd8040; // Channel Data Register 4
+ADC2.c(466): warning:  #177-D: variable "DBGU_IMR" was declared but never referenced
+    volatile unsigned int * DBGU_IMR = (unsigned int*) 0xfffff210; //Interrupt Mask Register
+ADC2.c: 27 warnings, 0 errors
+linking...
+Program Size: Code=2432 RO-data=32 RW-data=92 ZI-data=1508  
+FromELF: creating hex file...
+".\Objects\ADC_timer_in.axf" - 0 Error(s), 27 Warning(s).
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

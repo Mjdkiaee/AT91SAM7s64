@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\sam7.o"
+".\objects\adc2.o"
+--strict --scatter ".\Objects\ADC_timer_in.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ADC_timer_in.map" -o .\Objects\ADC_timer_in.axf
