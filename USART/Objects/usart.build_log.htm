@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: MJD KIaee, -, LIC=03CX7-EMFMZ-ZWR2V-PLE4X-DQA6V-6801T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.29.0.0
+Dialog DLL:      DARMATS.DLL V1.22.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMATS.DLL V1.22.0.0
+ 
+<h2>Project:</h2>
+C:\Users\majid\Desktop\KEIL\USART\usart.uvproj
+Project File Date:  04/26/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling SAM7.s...
+compiling usart.c...
+usart.c(11): warning:  #1295-D: Deprecated declaration setup - give arg types
+  void setup();
+usart.c(12): warning:  #1295-D: Deprecated declaration blink - give arg types
+  void blink();
+usart.c(13): warning:  #1295-D: Deprecated declaration delay0 - give arg types
+  void delay0();
+usart.c(14): warning:  #1295-D: Deprecated declaration if_ready_reciver - give arg types
+  short int if_ready_reciver();
+usart.c(15): warning:  #1295-D: Deprecated declaration get_char - give arg types
+  char get_char();
+usart.c(51): warning:  #111-D: statement is unreachable
+  	return 0;
+usart.c(22): warning:  #177-D: variable "save"  was declared but never referenced
+  	char *save;
+usart.c(23): warning:  #177-D: variable "k"  was declared but never referenced
+  	short int k=1;
+usart.c(24): warning:  #177-D: variable "true_recived"  was declared but never referenced
+    short int true_recived=0;
+usart.c(128): warning:  #177-D: variable "DBGU_SR"  was declared but never referenced
+  	volatile unsigned int * DBGU_SR = (unsigned int*) 0xfffff214; // Status Register DBGU
+usart.c(130): warning:  #177-D: variable "DBGU_RHR"  was declared but never referenced
+  	unsigned int * DBGU_RHR = (unsigned int*) 0xfffff218; //Receive Holding Register
+usart.c(131): warning:  #177-D: variable "DBGU_THR"  was declared but never referenced
+  	unsigned int * DBGU_THR = (unsigned int*) 0xfffff21c; // Transmit Holding Register
+usart.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=1276 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\usart.axf" - 0 Error(s), 12 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
